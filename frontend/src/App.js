@@ -18,8 +18,8 @@ function App() {
     if (about) {
       return (
         <div>
-          <h3>{about.author}</h3>
-          <h4>{about.description}</h4>
+          <h3>Author: {about.author}</h3>
+          <h4>Description: {about.description}</h4>
         </div>
       );
     }
